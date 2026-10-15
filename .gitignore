@@ -1,0 +1,11 @@
+# Entorno de Python (se recrea con run.bat)
+.venv/
+__pycache__/
+*.pyc
+
+# Salidas de PyInstaller (el .exe se publica como Release, no en el repo)
+build/
+dist/
+
+# Vistas previas generadas durante el desarrollo
+vista_previa_*.png

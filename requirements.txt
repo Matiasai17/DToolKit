@@ -1,0 +1,6 @@
+# Solo estas dos. PySide6-Essentials es PySide6 sin el motor web, Qt Quick
+# ni el visor de PDF: la app no los usa y ahorran unos 450 MB.
+# Si alguna vez agregas una herramienta con camara (QtMultimedia) o grafico 3D,
+# vas a necesitar el paquete completo: cambia la linea por  PySide6>=6.9
+PySide6-Essentials>=6.9
+zxing-cpp>=2.2
